@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <title> SC Project </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-light sh">
+    <form class="form-inline search">
+        <div class="md-form my-0">
+          <input class="form-control mr-sm-2 search__field" type="text" placeholder="Search for recipes...">
+        </div>
+        <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3 btn search__btn"><span class="fa fa-search"></span>Search</button>
+    </form>
+
+
+    <div class = "likes">
+        <div class="likes__field">
+            <button class= "likes__icon"><i class="fab fa-gratipay"></i></button> 
+        </div>
+
+        <div class="likes__panel">
+            <ul class="likes__list">
+<!--                 <li>
+                    <a class="likes__link" href="#23456">
+                        <div class="likes__image">
+                            <img src="http://forkify-api.herokuapp.com/images/Pizza2BQuesadillas2B2528aka2BPizzadillas25292B5002B834037bf306b.jpg" alt="Pizza Quesadillas (aka Pizzadillas)" class ="liked_image">
+                        <div class="likes__data">
+                            <h6 class="likes__name">Pizza Quesadillas (aka Pizzadillas)</h6>
+                            <p class="likes__author">Closet Cooking</p>
+                        </div>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <!-- <div class="row">
+             <div class="col-lg-7">
+                <div id="custom-search-input">
+                    <form class="search">
+                <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes...">
+                <button class="btn search__btn">
+                    <span class="fa fa-search"></span>
+                    <span>Search</span>
+                </button>
+            </form>
+                </div>
+            </div>
+                        
+        </div> -->
+
+<!--             <div class="row">
+             <div class="col-lg-12">
+                <div id="custom-search-input">
+                    <div class="input-group">
+                        <form class="search">
+                        <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes..." />
+                            <button type="button" class="btn search__btn">
+                                <span class="fa fa-search"></span>
+                            </button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="row text-center">
+            <!-- <div id="rec" class="col-md-4" style="color: #0097A7; width: 25%; height: auto">
+                <h3> Recipes </h3>
+                <div class="recipe-block">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img id="searchImg" src="https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550-500x375.jpg" alt="" class="rounded-circle img-fluid"/>
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 id="recipe_title">Lasagna</h4>
+                            <small id="recipe_publisher">Ailiya</small>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div id="results" class="col-md-4" style="color: #0097A7; width: 25%; height: auto">
+            <ul class="results__list">
+                
+<!--                 <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <figure class="results__fig">
+                            <img class="rounded-circle img-fluid" height="100px" width="100px" src="https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550-500x375.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                            <button class="view__recipe"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </a>
+                </li> -->
+             </ul>
+             <div class="page">
+                  <li class="pagination"></li>
+                  <ul id="pagination-demo"></ul>
+            </div>
+         </div>
+
+            <div class="recipe col-md-4" style="color: #00ACC1; width: 25%; height: auto; background-color: #ECEFF1">
+               <div class='container'>
+                      <div class='recipe-card'>
+                        <div class='recipe_img'>
+                            <img src="https://cdn.filtergrade.com/wp-content/uploads/2016/10/03022009/Mowiekay3.png" class="main_recipe rounded-circle">
+                        </div>
+                                                <br>
+                        <div class='recipe_content'>
+                            <h1 class="heading-2">Learn how to cook amazing recipes!</h1>
+                            <p class="recipe_instructions">We give you options to decide from. Happy tummy happy life!
+                            </p>
+                        </div>
+                      </div>
+                    </div> 
+            </div>
+
+            <div class=" col-md-4" style="color: #00BCD4; width: 25%; height: auto">
+                <h3> My Shopping List </h3>
+                <div class="shop__list panel-body">
+                        
+                </div>              
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="./dist/main.js"></script>
+</body>
+</html>

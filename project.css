@@ -1,0 +1,170 @@
+div.shop__list {
+  text-align: center;
+}
+.container{
+    padding: 3%;
+    text-align: center;
+}
+#custom-search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+}
+ 
+#custom-search-input .search-query {
+    width:100%;
+    padding-right: 3px;
+    padding-left: 15px;
+    margin-bottom: 0;
+    border-radius: 50px;
+}
+ 
+#custom-search-input button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: absolute;
+    right:0;
+    margin-bottom: 0;
+    border-radius: 3px;
+    color:#D9230F;
+    cursor: unset;
+    z-index: 2;
+}
+ 
+.search-query:focus{
+    z-index: 0;   
+}
+
+
+/*.fa-search {
+    color: #0097A7;
+}*/
+
+.recipe-block {
+    display: block;
+    padding: 10px 0 30px;
+    border-bottom:1px solid #ccc;
+    margin:0 0 20px;
+}
+
+.testimonial-content h3{
+    margin-top:0px; color:#444;
+}
+
+/* Pagination links */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pa {
+    list-style-type: none;
+    display: inline;
+}
+/* Style the active/current link */
+.pa .active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pa li:hover: {background-color: #ddd;}
+
+.recipeList{
+    list-style-type: none;
+}
+
+.result{
+    display: inline;
+
+}
+
+/*.search{
+    display: inline;
+}
+*/
+.view__recipe  {
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.main_recipe {
+    width: 240px;
+    height: 180px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.recipe_content {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.link {
+    font-style: oblique;
+}
+
+
+.recipe_ingredient-list {
+    text-align: justify;
+    font-size: 18px;
+}
+/*.likes {
+    position: relative;
+    align-self: stretch;
+    padding: 0 !important;
+}*/
+
+.likes__field {
+    cursor: pointer;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: all .3s;
+}
+    
+.likes__panel:hover, .likes__field:hover + .likes__panel {
+    visibility: visible;
+    opacity: 1; 
+}
+.likes__icon {
+    background-color: transparent;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.likes__panel {
+    position: absolute;
+    right: 0;
+    top: 2.5rem;
+    z-index: 10;
+    padding: 2rem 0;
+    width: 20rem;
+    visibility: hidden;
+    opacity: 0;
+    color: #00ACC1;
+    transition: all .5s .2s; 
+    background-color: white;
+}
+
+.liked_image {
+    width: 200px;
+    height: 100px;
+}
+
+.sh{
+    background-color: #2193b0;
+}
